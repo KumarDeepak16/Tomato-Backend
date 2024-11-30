@@ -17,8 +17,8 @@ const port =  4000;
 app.use(express.json())
 
 const allowedOrigins = [
-    "http://localhost:5173",
-    "http://localhost:5174"
+    "https://tomato-food-delivery-frontend.netlify.app",
+    "https://tomato-food-delivery-admin.netlify.app"
 ];
 
 app.use(cors({
